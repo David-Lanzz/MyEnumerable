@@ -5,7 +5,7 @@ end
 # test("Muhammad") {|name|puts name}
 
 def all(arr)
-arr.all? {|item| item > 4}
+  arr.all? {|item| item > 4}
 end
 
 
