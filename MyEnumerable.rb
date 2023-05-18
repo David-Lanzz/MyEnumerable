@@ -10,7 +10,7 @@ module MyEnumerable
       false
    end
 
-   def select
+   def filter
       arr = []
       each { |e|
       if e%2==0

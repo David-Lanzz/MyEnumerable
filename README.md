@@ -7,7 +7,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 My Enumerable ](#-morse-code-translator-)
+- [📖 My Enumerable ](#-my-enumerable-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -111,7 +111,8 @@ Install all the dependencies required for, by using the command below
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **N/L**
+- [ ] **MyList Class**
+- [ ] **MyEnumerable Module**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

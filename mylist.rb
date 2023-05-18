@@ -19,4 +19,4 @@ puts(mylist.all? { |e| e < 5 })
 
 puts(mylist.any? { |e| e == 5 })
 
-print(mylist.select { |num|  num.even? })
+print(mylist.filter { |num|  num.even? })
