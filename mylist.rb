@@ -1,22 +1,22 @@
 require_relative "MyEnumerable.rb"
-
 class MyList
-include MyEnumerable
+  include MyEnumerable
   attr_accessor :list
-  def initialize(list)
+
+  def initialize(*list)
     @list = list
   end
 
-  def each
-    list.each { |member|
-      yield member
-    }
+  def each(&block)
+    @list.each(&block)
   end
 
 end
 
-list = MyList.new([1,2,3,4])
+mylist = MyList.new(1, 2, 3, 4)
 
-list.each {puts list.list}
+puts(mylist.all? { |e| e < 5 })
 
-puts list.all?{|e| e > 5}
+puts(mylist.any? { |e| e == 5 })
+
+print(mylist.select { |num|  num.even? })
